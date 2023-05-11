@@ -31,7 +31,7 @@ EDGES = {}
 not_allow_info = '⚠️You are not authorized to use this bot⚠️'
 
 markup = quick_markup({
-    'Github': {'url': 'https://github.com/pininkara/BingChatBot'},
+    'Github': {'url': 'https://github.com/stasbalazuk/BingChatBot.git'},
 }, row_width=1)
 
 my_conversation_style = ConversationStyle.balanced
