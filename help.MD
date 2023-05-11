@@ -1,0 +1,2 @@
+pip uninstall pytelegrambotapi
+pip install pytelegrambotapi
