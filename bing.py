@@ -7,10 +7,10 @@ from EdgeGPT import Chatbot, ConversationStyle
 from telebot.util import quick_markup
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-#ALLOWED_USER_IDS = os.getenv('ALLOWED_USER_IDS').split(',')
-ALLOWED_USER_IDS = os.getenv('ALLOWED_USER_IDS')
+ALLOWED_USER_IDS = os.getenv('ALLOWED_USER_IDS').split(',')
+#ALLOWED_USER_IDS = os.getenv('ALLOWED_USER_IDS')
 BOT_ID = os.getenv('BOT_ID', '')
-COOKIE_PATH = os.getenv('COOKIE_PATH', './cookie.json')
+COOKIE_PATH = os.getenv('COOKIE_PATH', './cookies.json')
 GROUP_MODE = os.getenv('GROUP_MODE', 'False')
 PUBLIC_MODE = os.getenv('PUBLIC_MODE', 'False')
 
